@@ -160,7 +160,7 @@ public class Series {
 
             try {
                 ageRestriction = Integer.parseInt(ageInput);
-                if (ageRestriction >= 2 && ageRestriction <= 18) {
+                if (ageRestriction >= 2 && ageRestriction <= 80) {
                     break;
                 } else {
                     System.out.println("You have entered an incorrect series age!");

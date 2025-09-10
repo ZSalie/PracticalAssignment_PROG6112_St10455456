@@ -92,7 +92,7 @@ public class Bookstore {
         }
     }
     //Filter Method that filters Books by Age
-    private void filterBooksByAge() {
+    void filterBooksByAge() {
         System.out.print("Enter maximum recommended age: ");
         int age = getValidAge();
         boolean found = false;
