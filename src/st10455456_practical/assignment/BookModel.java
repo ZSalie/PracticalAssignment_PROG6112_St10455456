@@ -4,12 +4,7 @@
  */
 package st10455456_practical.assignment;
 
-/**
- * BookModel represents a single book entity in the bookstore system.
- * Includes attributes for ID, title, genre, and recommended age.
- * Supports getters and setters for update functionality.
- * Author: lab_services_student
- */
+
 public class BookModel {
     //Book Variables
     private String id;

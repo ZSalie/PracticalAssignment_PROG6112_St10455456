@@ -109,7 +109,7 @@ public class Bookstore {
         }
     }
     //Report Method for Book
-    private void printReport() {
+    void printReport() {
         System.out.println("\n--- BOOKSTORE REPORT ---");
         if (books.isEmpty()) {
             System.out.println("No books in the system.");
@@ -134,7 +134,7 @@ public class Bookstore {
         }
     }
     //Update Method for Book
-    private void updateBookById() {
+    void updateBookById() {
         System.out.print("Enter book ID to update: ");
         String id = scanner.nextLine();
         BookModel targetBook = null;
